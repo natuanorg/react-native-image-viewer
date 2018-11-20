@@ -88,7 +88,7 @@ export class Props {
   /**
    * 单击回调
    */
-   public onClick?:  (close?: () => any, currentShowIndex?: number) => void = () => {
+   public onClick?:  (currentShowIndex?: number) => void = () => {
     //
   };
 
